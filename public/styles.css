@@ -8,6 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    font-family: 'Crimson Text', serif;
 }
 
 main {
@@ -23,13 +24,15 @@ form {
 label {
     display: block;
     margin-bottom: 1em;
+    font-size: 20px;
+    width: 500px;
 }
 
 textarea {
     resize: none;
     border: none;
     padding: 1em;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.10);
 }
 
 textarea:focus {
@@ -37,11 +40,19 @@ textarea:focus {
     outline: none;
 }
 
+input {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+}
+
 .question {
     padding: 3em;
 }
 
 #submit {
+    margin-top: 3em;
     text-align: center;
 }
 
