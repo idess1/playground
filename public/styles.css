@@ -47,6 +47,10 @@ button {
     font-family: 'Crimson Text', serif;
 }
 
+form {
+    margin-bottom: 10vh;
+}
+
 .question {
     padding: 3em;
 }
@@ -56,6 +60,25 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#create button, #view button, #fill button {
+    font-size: 2em;
+}
+
+button:focus, button:active {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+button, button:hover {
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 ::-webkit-scrollbar {

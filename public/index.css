@@ -1,0 +1,11 @@
+/*
+  Copyright 2020 © Idess Lee
+*/
+
+#actions {
+    flex-direction: column;
+}
+
+#create button, #view button, #fill button {
+    font-size: 1.5em;
+}
