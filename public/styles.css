@@ -17,15 +17,15 @@ main {
     align-items: center;
 }
 
-form {
-    margin: 15vh;
-}
-
 label {
     display: block;
     margin-bottom: 1em;
     font-size: 20px;
     width: 500px;
+}
+
+h1 {
+    margin-top: 15vh;
 }
 
 textarea {
@@ -40,7 +40,7 @@ textarea:focus {
     outline: none;
 }
 
-input {
+button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -51,9 +51,11 @@ input {
     padding: 3em;
 }
 
-#submit {
-    margin-top: 3em;
-    text-align: center;
+#actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 ::-webkit-scrollbar {
